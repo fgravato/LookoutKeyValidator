@@ -37,3 +37,20 @@ Key Validation Process:
  Step 2: Tests API access by making a simple call to /mra/api/v2/devices
  
  Reports: Success/failure with detailed error messages
+
+
+File Format for Batch Validation:
+
+Create a text file with one application key per line:
+
+application_key_1
+application_key_2
+# Comments start with #
+application_key_3
+The tool follows the exact authentication flow described in your Lookout API documentation:
+
+ Uses the /oauth2/token endpoint with client_credentials grant type
+ Includes proper headers and authentication
+ Tests the token with a real API call to ensure it's working
+
+This should help you quickly validate whether your Lookout application keys are properly configured and can successfully connect to the API.
