@@ -10,25 +10,25 @@ Features:
 
 Usage Examples:
 # Validate a single key
-python lookout_validator.py "your_application_key_here"
+```python lookout_validator.py "your_application_key_here" ```
 
 # Validate with explicit --key flag
-python lookout_validator.py --key "your_application_key_here"
+```python lookout_validator.py --key "your_application_key_here"```
 
 # Validate multiple keys from a file
-python lookout_validator.py --file keys.txt
+```python lookout_validator.py --file keys.txt```
 
 # Save results to JSON file
-python lookout_validator.py --key "your_key" --output results.json
+```python lookout_validator.py --key "your_key" --output results.json```
 
 # Use custom scope
-python lookout_validator.py --key "your_key" --scope "custom_scope"
+```python lookout_validator.py --key "your_key" --scope "custom_scope"```
 
 
 Required Dependencies:
 Python3 and Requests
 You'll need to install the requests library:
-pip install requests
+```pip install requests```
 
 Key Validation Process:
 
