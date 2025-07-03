@@ -32,6 +32,8 @@ pip install requests
 
 Key Validation Process:
 
-Step 1: Attempts to get an OAuth2 access token using the application key
-Step 2: Tests API access by making a simple call to /mra/api/v2/devices
-Reports: Success/failure with detailed error messages
+ Step 1: Attempts to get an OAuth2 access token using the application key
+ 
+ Step 2: Tests API access by making a simple call to /mra/api/v2/devices
+ 
+ Reports: Success/failure with detailed error messages
